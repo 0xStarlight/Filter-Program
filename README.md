@@ -38,7 +38,29 @@ Example
 * `./filter [FLAG] iamge.bmp out.bmp`
 
 ## Filter Snapshots
-![Filter](ATM_display.png)
+* Original Image
+
+![Original](original.bmp)
+
+* Blur Filter
+
+![blur_filter](blur_filter.bmp)
+
+* Edge Detection Filter
+
+![edge_filter](edge_filter.bmp)
+
+* Greyscale Filter
+
+![greyscale_filter](greyscale_filter.bmp)
+
+* Reflected Filter
+
+![reflected_filter](reflected_filter.bmp)
+
+* Sepia Filter
+
+![sepia_filter](sepia_filter.bmp)
 
 ## Build with
 * C Language
