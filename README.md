@@ -40,7 +40,7 @@ Options available
 
 ## Note
 
-* Can only convert Bitmap images which specific format
+* Can only convert Bitmap images with specific format
 
 `PC bitmap,Windows 3.x format, cbSize 720056, bits offset 54`
 
