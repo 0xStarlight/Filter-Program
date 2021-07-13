@@ -30,6 +30,13 @@ Options available
 
 `$ clang -ggdb3 -O0 -Qunused-arguments -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -lm -o filter filter.c helpers.c`
 
+## Note
+
+* Save output file with a bitmap file extention `.bmp`
+
+Example
+* `./filter [FLAG] iamge.bmp out.bmp`
+
 ## Filter Snapshots
 ![Filter](ATM_display.png)
 
