@@ -92,17 +92,6 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
-    /*
-    for each row
-    for each col
-        set count to 0
-        for every neighboring pixel within the radius m in the x direction
-            for every neighboring pixel within the radius m in the y direction
-                 add the color to the total
-                 count++
-        final_color = total/count
-        setpixel(current x, current y, final_color)
-    */
     RGBTRIPLE tmp[height][width];
 
     for (int row = 0; row < height; row ++)
