@@ -3,7 +3,7 @@
 
 
 ## Filter-Program
-A program is written in C language so users can apply grayscale, sepia, reflection, blur, or edge detection filters to their images.
+A program is written in C language so users can apply grayscale, sepia, reflection, blur, or edge detection filters to their images
 
 ## Requirements
 Clang should be installed on your system
