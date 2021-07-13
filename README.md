@@ -40,10 +40,15 @@ Options available
 
 ## Note
 
+* Can only convert Bitmap images which specific format
+
+`PC bitmap,Windows 3.x format, cbSize 720056, bits offset 54`
+
 * Save output file with a bitmap file extention `.bmp`
 
-Example
-* `./filter [FLAG] image.bmp out.bmp`
+* Example
+
+`$ ./filter [FLAG] image.bmp out.bmp`
 
 ## Filter Snapshots
 * Original Image
