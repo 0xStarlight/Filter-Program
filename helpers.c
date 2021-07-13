@@ -3,7 +3,7 @@
 // Convert image to grayscale
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
-    // update to avg of blue green and blue
+    // update to avg of blue green and red
     float avg = 0;
     for (int i = 0; i < height; i++)
     {
