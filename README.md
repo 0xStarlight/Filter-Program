@@ -3,10 +3,10 @@
 
 
 ## Filter-Program
-A program written in C language so user can apply grayscale, sepia, reflection, blur, or edge detection filters to their images.
+A program is written in C language so users can apply grayscale, sepia, reflection, blur, or edge detection filters to their images.
 
 ## Requirements
-Clang should be installed in your system
+Clang should be installed on your system
 
 `$ sudo apt-get install clang`
 
