@@ -18,7 +18,13 @@ Clang should be installed on your system
 
 `$ sudo apt-get install clang`
 
+## Build
+Use the provided Makefile
+
+`$ make`
+
 ## How to run the program
+After running make, the program will be located in a directory called `bin`. It can be used like this
 
 `$ ./filter [flag] infile outfile`
 
@@ -53,30 +59,28 @@ Options available
 ## Filter Snapshots
 * Original Image
 
-![Original](original.bmp)
+![Original](assets/original.bmp)
 
 * Blur Filter
 
-![blur_filter](blur_filter.bmp)
+![blur_filter](assets/blur_filter.bmp)
 
 * Edge Detection Filter
 
-![edge_filter](edge_filter.bmp)
+![edge_filter](assets/edge_filter.bmp)
 
 * Greyscale Filter
 
-![greyscale_filter](greyscale_filter.bmp)
+![greyscale_filter](assets/greyscale_filter.bmp)
 
 * Reflected Filter
 
-![reflected_filter](reflected_filter.bmp)
+![reflected_filter](assets/reflected_filter.bmp)
 
 * Sepia Filter
 
-![sepia_filter](sepia_filter.bmp)
+![sepia_filter](assets/sepia_filter.bmp)
 
-## Build with
-* C Language
 
 ## Author
 * Bhaskar Pal - *Initial Work* - [bhaskarpal](https://github.com/onyx-storm) 
