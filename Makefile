@@ -1,10 +1,18 @@
+.DEFAULT_GOAL:=all
 .PHONY: all
 all: bin/filter
 
-bin/filter: src/bmp.h src/filter.c src/helpers.c src/helpers.h
+CC=clang-11
+WARNING_FLAGS=-Qunused-arguments -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow
+CFLAGS=-ggdb3 -O0 -std=c11 $(WARNING_FLAGS)
+LDFLAGS=-lm
+
+bin/filter: src/filter.c src/helpers.c src/bmp.h src/helpers.h bin
+	$(CC) $(CFLAGS) src/filter.c src/helpers.c -o $@ $(LDFLAGS)
+
+bin:
 	mkdir bin
-	clang -ggdb3 -O0 -Qunused-arguments -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -lm -o bin/filter src/filter.c src/helpers.c
 
 .PHONY: clean
 clean:
-	-rm -rf bin
+	-rm -rf bin/*
